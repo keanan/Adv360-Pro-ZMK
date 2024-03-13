@@ -7,4 +7,4 @@ config BOARD_ENABLE_DCDC
     depends on BOARD_ADV360_LEFT || BOARD_ADV360_RIGHT
 
 config CONFIG_ZMK_IDLE_TIMEOUT
-    int 300000
+    int '300000'
